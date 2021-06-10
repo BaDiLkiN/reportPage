@@ -1,0 +1,39 @@
+{
+  "name": "report-page",
+  "version": "1.0.0",
+  "description": "Report page on pure JS",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BaDiLkiN/reportPage.git"
+  },
+  "keywords": [
+    "js",
+    "report",
+    "page",
+    "incident",
+    "reporter"
+  ],
+  "author": "Vladislav Kumkov <badilkin@yandex.ru",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BaDiLkiN/reportPage/issues"
+  },
+  "homepage": "https://github.com/BaDiLkiN/reportPage#readme",
+  "devDependencies": {
+    "clean-webpack-plugin": "*",
+    "copy-webpack-plugin": "^9.0.0",
+    "css-loader": "^5.2.6",
+    "html-webpack-plugin": "^5.3.1",
+    "mini-css-extract-plugin": "^1.6.0",
+    "sass": "^1.34.1",
+    "sass-loader": "^12.1.0",
+    "webpack": "^5.38.1",
+    "webpack-cli": "^4.7.2"
+  }
+}
